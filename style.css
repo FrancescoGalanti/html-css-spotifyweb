@@ -59,8 +59,16 @@ body{
 }
 
 .list-base{
- align-items: flex-end;
+margin-top: 300px;
 }
+
+.list .list-base::after{
+  content: ""
+  width: 100px;
+  color: white;
+}
+
+
 
 
 
