@@ -30,6 +30,43 @@ body{
 }
 
 
+/* main layout */
+
+.container-main{
+  display: flex;
+
+}
+
+.container-aside{
+ display: flex;
+ flex-direction: column;
+ background-color: black;
+ padding-left: 10px;
+ flex-wrap: wrap;
+ flex-basis: 200px;
+ align-items: stretch;
+ max-width: 100%;
+}
+
+.playlist{
+ padding-top: 10px;
+}
+
+.list{
+ color: white;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+.list-base{
+ align-items: flex-end;
+}
+
+
+
+
+
+
 /* utilyties */
 
 /* typo */
@@ -37,6 +74,21 @@ body{
 h1{
  color: white;
 }
+
+a{
+ text-decoration: none;
+ color: white;
+}
+
+li{
+ padding-bottom: 10px;
+}
+
+/* ul,
+div{
+ display: flex;
+} */
+
 
 /* btn */
 .btn{
@@ -46,4 +98,13 @@ h1{
  border-radius: 10px;
  padding: 10px 10px;
  min-width: 150px;
+ margin: 10px 0;
+}
+
+.padding-left{
+ padding-left: 10px;
+}
+
+.padding-right{
+ padding-right: 10px;
 }
