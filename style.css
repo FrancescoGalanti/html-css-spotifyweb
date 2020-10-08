@@ -7,7 +7,22 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: red;
 }
 
 /* Desktop first */
+
+/* Viewport-container */
+
+.container-viewport{
+  height: 100vh;
+}
+
+/* header layout */
+
+
+/* Flex-padre */
+.container{
+ width: 1170px;
+ background-color: black;
+ display: flex;
+}
