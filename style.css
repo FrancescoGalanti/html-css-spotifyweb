@@ -352,8 +352,9 @@ img{
 @media screen and (max-width: 1024px){
  /* album */
 
- .album-list .album{
-   flex-basis: calc(100% / 4 -15px);
+ .album{
+   flex-basis: calc(100% / 4 );
+
  }
 
 
@@ -429,6 +430,10 @@ img{
  /* flex-baisi */
  .option{
    flex-basis: calc(100% / 4)
+ }
+
+ .album{
+   flex-basis: calc(100% / 2);
  }
 
 }
