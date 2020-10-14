@@ -172,6 +172,10 @@ h4{
   margin-bottom: 30px;
  }
 
+ ul{
+   list-style: none;
+ }
+
 
 /* img */
 
@@ -407,6 +411,7 @@ h4{
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  flex-direction: column;
  }
 
 
@@ -443,8 +448,53 @@ h4{
   padding-bottom: 20px;
 }
 
+.ul-column{
+ flex-direction: row;
+}
+
 i.far.fa-folder{
  padding-left: 10px;
+}
+
+.progressbar-and-number {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.progress-bar {
+  height: 4px;
+  flex-grow: 1;
+  background-color: #535353;
+  border-radius: 5px;
+  position: relative;
+}
+
+.partial-bar {
+  height: 4px;
+  width: 25%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.partial-bar:hover::before {
+  content: '';
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 23%;
+  cursor: pointer;
+}
+
+.song-progress {
+  padding-right: 30px;
+}
+
+.song-duration {
+  padding-left: 30px;
 }
 
 
