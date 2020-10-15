@@ -460,14 +460,17 @@ i.far.fa-folder{
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: row;
 }
+
+
 
 .progress-bar {
   height: 4px;
-  flex-grow: 1;
   background-color: #535353;
   border-radius: 5px;
   position: relative;
+  width: 600px;
 }
 
 .partial-bar {
@@ -482,7 +485,7 @@ i.far.fa-folder{
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: red;
   position: absolute;
   bottom: -5px;
   left: 23%;
